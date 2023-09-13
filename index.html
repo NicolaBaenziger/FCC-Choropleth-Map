@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Choropleth Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">US Choropleth Map</h1>
+        <p id="description">Percentage of adults with a bachelor's degree or higher by county</p>
+
+        <svg id="map" width="800" height="500"></svg>
+        <div id="legend"></div>
+        <div id="tooltip" class="hidden">
+            <p id="tooltip-text"></p>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
